@@ -1,3 +1,4 @@
+CIAO_AI-env/
 # Ignore sensitive files
 .env
 *.key
@@ -73,3 +74,4 @@ coverage-final.json
 # Ignore custom files
 custom_file_to_ignore.txt
 
+.env
