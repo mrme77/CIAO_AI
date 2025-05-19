@@ -1,0 +1,75 @@
+# Ignore sensitive files
+.env
+*.key
+*.pem
+*.config
+
+# Ignore Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore logs and runtime files
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore dependency directories
+node_modules/
+bower_components/
+vendor/
+
+# Ignore build artifacts
+dist/
+build/
+*.o
+*.so
+*.class
+*.dll
+*.exe
+
+# Ignore package manager lock files (optional)
+package-lock.json
+yarn.lock
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.coverage
+*.lcov
+coverage-final.json
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.old
+
+# Ignore database files
+*.sqlite3
+*.db
+*.sql
+
+# Ignore custom files
+custom_file_to_ignore.txt
+
