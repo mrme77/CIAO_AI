@@ -17,3 +17,29 @@ CIAO-AI is a locally hosted AI-powered application designed to help children ans
 ## Installation
 1. Clone the repository:
 
+2. Install dependencies:
+uv pip install -r requirements.txt
+
+
+3. Set up Ollama and download the Gemma3 model:
+   Follow the instructions in `models/ollama_setup.md`.
+
+4. Configure Firebase:
+   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
+   - Download the `firebase_config.json` file and place it in the `firebase/` directory.
+
+5. Run the application:
+
+
+## Usage
+- Open the Gradio interface in your browser (default: `http://localhost:7860`).
+- Ask questions about Italian history, geography, or translations.
+- The application will remember user preferences and past interactions using Firebase.
+
+## Configuration
+Edit `config.yaml` to customize model settings, memory paths, and other parameters.
+
+## License
+This project is open-source and licensed under the MIT License.
+
+
